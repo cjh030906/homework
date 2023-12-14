@@ -1,0 +1,32 @@
+$ git config --설정범위 설정변수 설정값
+설정범위 : --system, --global, --local
+--global인 경우 설정파일 : C:\Users\[사용자계정]\.gitconfig
+지역 저장소 생성 전 반드시 해야하는 설정
+$ git config --global user.name cjh030906
+$ git config --global user.email soraka0906@gmail.com
+맥과 윈도우 간의 자동 변환
+$ git config --global core.autocrlf true
+뉴라인 경고 발생 없애기(옵션)
+$ git config --global core.safecrlf false
+기본 편집기 설정
+$ git config --global core.editor 'code --wait'
+깃 저장소 기본 브랜치 이름 설정
+$ git config --global init.defaultBranch main
+git repository 생성 방법
+$ git init
+$ git init. //현재 디렉토리를 git repository로 만들기 위해서 사용
+$ git init basic  // 현재 폴더 하부에 폴더 basic을 생성하고 git repository로 만들기위해서 사용
+$ pwd //Print Working Directory 현재 폴더 표시
+$ cd // Change Directory 
+$ mkdir dname // Make Directory
+$ ls //File or folder list ( -l : 파일의 상세정보, -a : 숨김 파일 표시, -al : 위 두개를 조합
+$ touch fname //빈 파일 fname 생성
+$ echo git bash
+$ echo 'print()' //이후 문자열을 컴퓨터 터미널에 출력하는 명령어, 단순한 문자열은 가능하나 괄호 등이 있는 경우, 작은 또는 큰 따옴표 사용
+$ cat fname // 파일 내용 보이기
+$ cp a b // 파일 a를 b로 복사
+$ mv f1 f2 // 파일 f1을 f2로 이름 수정
+$ rm fname // 파일 fname 삭제
+' > ' 기호 : 기존에 있는 파일 내용을 지우고 저장
+' >> ' 기호 : 기존 파일 내용 뒤에 덧붙여서 저장
+' < ' 기호 : 파일의 데이터를 명령에 입
